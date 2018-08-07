@@ -1,0 +1,43 @@
+package com.tricon.Student.model;
+
+public class Student {
+	private int id;
+	private String name;
+	private String modal;
+
+	public Student(int id, String name, String modal) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.modal = modal;
+	}
+
+	public Student() {
+		super();
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getModal() {
+		return modal;
+	}
+
+	public void setModal(String modal) {
+		this.modal = modal;
+	}
+
+}
